@@ -93,4 +93,4 @@ client = AzureOpenAI(
 👨‍💻 Author
 Ibne Sabid Saikat
 💼 Azure Cloud Engineer | Python Developer | Microsoft Learn Student Ambassador
-🔗 LinkedIn
+
