@@ -41,3 +41,49 @@ resume-analyzer/
 
 
 
+
+---
+
+## 🧠 How It Works
+
+1. User pastes resume text into the app.
+2. GPT-3.5 analyzes and gives structured feedback.
+3. Output is shown directly in the browser.
+
+---
+
+## 💻 Local Setup
+
+```bash
+# Clone repo
+git clone https://github.com/your-username/resume-analyzer.git
+cd resume-analyzer
+
+# Create & activate virtual environment
+python3 -m venv myenv
+source myenv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run app
+streamlit run app.py
+
+
+
+Azure OpenAI Setup (Replace in analyze_resume.py)
+client = AzureOpenAI(
+    api_key="your-api-key",
+    api_version="2024-05-01-preview",
+    azure_endpoint="your-endpoint"
+)
+
+
+
+Author
+👨‍💻 Ibne Sabid Saikat
+💼 Azure Cloud Engineer | Python Developer | Microsoft Learn Student Ambassador
+🔗 LinkedIn
+
+
+
